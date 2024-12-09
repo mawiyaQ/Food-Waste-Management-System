@@ -1,0 +1,352 @@
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f9ff; /* Light blue background */
+}
+
+/* Navbar Styling */
+.navbar {
+  background-color: #000000;
+  border: none;
+  border-radius: 0;
+}
+
+.navbar-nav > li > a {
+  color: white !important;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.navbar-nav > li > a:hover {
+  color: #ddd !important;
+}
+
+.navbar-toggle {
+  border: none;
+}
+
+.navbar-toggle .icon-bar {
+  background-color: white;
+}
+
+.navbar-header .navbar-brand {
+  font-size: 24px;
+  color: white !important;
+  font-weight: bold;
+}
+
+@media (max-width: 767px) {
+  .navbar-nav {
+    margin-top: 10px;
+  }
+}
+
+.navbar-nav > li > .btn {
+  background-color: #1d658b;
+  color: white;
+  font-weight: bold;
+  border-radius: 30px;
+  border-color: transparent;
+  padding: 10px 20px;
+}
+
+.navbar-nav > li > .btn:hover {
+  background-color: #4da8da;
+}
+
+/* Image Section */
+.image-section {
+    position: relative;
+    text-align: center;
+}
+.image-section img {
+    width: 100%;
+    max-height: 500px;
+    object-fit: cover;
+    filter: brightness(0.9); /* Slightly darkens the image for contrast */
+}
+.image-section h2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #ffffff;
+    background-color: rgba(27, 27, 27, 0.8); /* Semi-transparent black background */
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-size: 2.5em;
+    font-weight: bold;
+}
+
+.navbar-nav > li:last-child {
+  margin-right: 20px;
+}
+
+
+/* Content Section */
+.content {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #ffffff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    max-width: 900px;
+    border-radius: 8px;
+}
+.content h1 {
+    font-size: 2.5em;
+    color: #1b1b1b; /* Black */
+}
+.content p {
+    font-size: 1.2em;
+    color: #4da8da; /* Light blue */
+}
+
+/* Donation Section */
+.donation-section {
+    padding: 40px 20px;
+    background-color: #e6f7ff; /* Light blue background for donation */
+    text-align: center;
+}
+.donation-section h2 {
+    font-size: 2.5em;
+    color: #1b1b1b;
+    margin-bottom: 20px;
+}
+.donation-section ul {
+    list-style-type: none;
+    padding: 0;
+    font-size: 1.2em;
+    color: #4da8da;
+}
+.donation-section ul li {
+    margin-bottom: 15px;
+}
+
+/* Contact Information Section */
+.contact-info-section {
+background-color: #ffffff; /* White background */
+padding: 60px 20px;
+text-align: center;
+margin-top: 60px; /* To avoid overlap with the navbar */
+}
+
+.contact-info-section h2 {
+font-size: 2.5em;
+color: #1b1b1b;
+margin-bottom: 20px;
+}
+
+.contact-info-section ul {
+list-style-type: none;
+padding: 0;
+font-size: 1.2em;
+color: #4da8da;
+}
+
+.contact-info-section ul li {
+margin-bottom: 15px;
+}
+
+.contact-info-section a {
+color: #1b1b1b;
+text-decoration: none;
+}
+
+.contact-info-section a:hover {
+color: #4da8da;
+}
+
+/* Contact Form Section */
+.contact-form-section {
+background-color: #f4f9ff; /* Light blue background */
+padding: 60px 20px;
+margin-top: 20px;
+}
+
+.contact-form-section h2 {
+font-size: 2.5em;
+color: #1b1b1b;
+margin-bottom: 30px;
+}
+
+.contact-form-section .form-group {
+margin-bottom: 20px;
+}
+
+.contact-form-section .form-group label {
+font-size: 1.2em;
+color: #1b1b1b;
+}
+
+.contact-form-section .form-control {
+width: 100%;
+padding: 12px;
+font-size: 1.1em;
+border: 1px solid #ccc;
+border-radius: 8px;
+box-sizing: border-box;
+}
+
+.contact-form-section button {
+background-color: #1d658b;
+color: white;
+font-weight: bold;
+border-radius: 30px;
+border-color: transparent;
+padding: 10px 20px;
+font-size: 1.2em;
+}
+
+.contact-form-section button:hover {
+background-color: #4da8da;
+}
+
+/* about section */
+/* Donations Help Section */
+.donations-help-section {
+  background-color: #f1f1f1; /* Light gray background */
+  padding: 60px 20px;
+  text-align: center;
+  margin-top: 60px; /* Ensures it doesn't overlap with the navbar */
+}
+
+.donations-help-section h2 {
+  font-size: 2.5em;
+  color: #1b1b1b; /* Dark text */
+  margin-bottom: 40px;
+}
+
+.donations-help-section .intro-text {
+  font-size: 1.2em;
+  color: #4da8da; /* Light blue */
+  margin-bottom: 40px;
+  font-weight: 500;
+}
+
+.donation-step {
+  background-color: #ffffff;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out; /* Smooth hover effect */
+}
+
+.donation-step:hover {
+  transform: translateY(-10px); /* Lift effect on hover */
+}
+
+.donation-step h3 {
+  font-size: 1.8em;
+  color: #1b1b1b;
+}
+
+.donation-step p {
+  font-size: 1.1em;
+  color: #666666; /* Subtle gray */
+}
+
+.impact-statement {
+  background-color: #1b1b1b; /* Dark background for impact statement */
+  color: #ffffff;
+  padding: 30px 20px;
+  border-radius: 8px;
+  margin-top: 40px;
+}
+
+.impact-statement h3 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.impact-statement p {
+  font-size: 1.2em;
+  color: #4da8da; /* Light blue */
+}
+
+/* Responsive Design */
+@media (max-width: 767px) {
+  .donation-step {
+      margin-bottom: 20px;
+  }
+}
+
+/* Login Section */
+.login-section {
+    background-color: rgba(255, 255, 255, 0.9); /* Slight transparency for elegance */
+    padding: 80px 0;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+}
+.login-box {
+    background-color: #ffffff;
+    padding: 40px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+}
+.login-box h2 {
+    text-align: center;
+    color: #1b1b1b;
+    margin-bottom: 30px;
+    font-family: 'Georgia', serif;
+    font-weight: bold;
+    font-size: 2.5em;
+}
+.form-group label {
+    color: #1d658b;
+    font-weight: bold;
+}
+.form-control {
+    border-radius: 30px;
+    padding: 15px;
+    margin-bottom: 20px;
+    font-size: 1.1em;
+    border: 1px solid #ddd;
+    transition: all 0.3s ease;
+}
+.form-control:focus {
+    border-color: #1d658b;
+    box-shadow: 0 0 5px rgba(29, 101, 139, 0.5);
+}
+.btn-block {
+    border-radius: 30px;
+    padding: 15px;
+    font-size: 1.2em;
+}
+.btn-primary {
+    background-color: #1d658b;
+    border-color: #1d658b;
+}
+.btn-primary:hover {
+    background-color: #4da8da;
+    border-color: #4da8da;
+}
+.text-center {
+    font-size: 1em;
+    color: #1b1b1b;
+}
+.text-center a {
+    color: #1d658b;
+    text-decoration: none;
+    font-weight: bold;
+}
+.text-center a:hover {
+    color: #4da8da;
+}
+
+
+/* Footer Styling */
+footer {
+    background-color: #1b1b1b; /* Black */
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 20px;
+    border-top: 5px solid #4da8da; /* Light blue accent */
+}
+footer p {
+    margin: 0;
+    font-size: 1em;
+}
