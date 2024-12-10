@@ -60,6 +60,7 @@ background-color: #4da8da;
 .image-section {
   position: relative;
   text-align: center;
+  padding-top: 4.3%;
 }
 .image-section img {
   width: 100%;
@@ -67,18 +68,7 @@ background-color: #4da8da;
   object-fit: cover;
   filter: brightness(0.9); /* Slightly darkens the image for contrast */
 }
-.image-section h2 {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: #ffffff;
-  background-color: rgba(27, 27, 27, 0.8); /* Semi-transparent black background */
-  padding: 10px 20px;
-  border-radius: 8px;
-  font-size: 2.5em;
-  font-weight: bold;
-}
+
 
 .navbar-nav > li:last-child {
 margin-right: 20px;
